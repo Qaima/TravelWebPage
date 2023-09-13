@@ -1,0 +1,84 @@
+/* Carousel.css */
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 4%;
+    margin-bottom: 30%;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    right: 82%;
+    left:90%;
+    transform: translateY(-50%);
+   background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  
+  .next-button {
+    right: 0;
+  }
+  
+
+  .photo1{
+    margin:-30% 0% 1% 6%;
+
+  }
+
+  .photoHr {
+    margin:4%;
+    margin-right: 30%;
+  }
+
+  .day{
+    color: black;
+    background-color: rgb(240, 238, 238);
+    margin:4%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+    padding:25px;
+  }
+
+
+  .Itinerary{
+    
+  }
+  .ItinaryHeading{
+    font-weight: bold;
+    color: tomato;
+    background-color: rgb(240, 238, 238);
+    margin:4%;
+    margin-right:5%;
+    margin-bottom: 10%;
+    padding:25px;
+    
+  }
+
+
+  .body-para{
+    margin-top:3%;
+  margin-left: 4%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  color: gray;
+  font-size: large;
+
+  }
+ 
